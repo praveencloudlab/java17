@@ -16,6 +16,8 @@ public class Ex2 {
 		System.out.println("----------------");
 		Collections.sort(data,(obj1,obj2)->obj1.compareTo(obj2));
 		
+		
+		
 		System.out.println(data);
 		
 		
