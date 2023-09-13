@@ -1,0 +1,49 @@
+Stream API
+===============
+1.Stream sources: These are the sources from which streams can be generated.
+	-> Collections: 'stream()' and 'parallelStream()'
+	-> Arrays: 'Arrays.stream(array)'
+	-> I/O channels
+	-> Generators: 'Stream.iterate' and 'Stream.generate()'
+	-> Others: 'IntStream.range()', 'Random.ints()', etc
+
+2.Intermediate Operations: 
+	-> filter
+	-> map
+	-> flatMap
+	-> sorted
+	-> peek
+	-> distinct
+	-> skip
+	-> limit
+
+3.Terminal Operations
+	-> forEach
+	-> toArray()
+	-> reduce()
+	-> collect()
+	-> min() and max()
+	-> count()
+	-> anyMatch(), allMatch(), noneMatch()
+	-> findFirst() and findAny()
+4. Specialized Stream: 
+	-> IntStream : For 'int' primitive type
+	-> LongStrem
+	-> DoubleStream
+
+5. Collectors: 
+	-> Collectors.toList(), Collectors.toSet()
+	-> Collectors.joining()
+	-> Collectors.groupingBy()
+	-> Collectors.counting()
+	-> Collectors.averagingInt() , Collectors.summingInt()
+
+
+
+
+
+
+
+
+
+

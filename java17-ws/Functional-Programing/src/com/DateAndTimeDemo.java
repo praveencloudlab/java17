@@ -8,6 +8,7 @@ public class DateAndTimeDemo {
 	public static void main(String[] args) {
 		
 		LocalDate d=LocalDate.now();
+		
 		LocalDateTime dt=LocalDateTime.now();
 		System.out.println(d);
 		System.out.println(dt);
