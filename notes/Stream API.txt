@@ -37,6 +37,66 @@ Stream API
 	-> Collectors.groupingBy()
 	-> Collectors.counting()
 	-> Collectors.averagingInt() , Collectors.summingInt()
+	
+
+
+	 Fruit APP
+	 =============
+
+	 class Fruit {}
+	 id,name,color,type,price,qty
+
+
+========================================
+	 Fruit	Color   qty price	Type
+	 Apple 	Yellow  10  150		India
+	 Apple 	Green    5  120		India
+	 Apple 	Red     20  80		UK
+	 Apple	Red     150 60		USA
+	 Apple 	White   12  40		UK
+	 Mongo 	Yellow  10  500		USA
+	 Mongo 	Green   70  100		Inida
+	 Mango 	Red     200 150		USA
+	 Orange Orange  50   20     UK
+	 ===================================	
+
+	 list all fruits whose type is 'India'
+	 list all Red Apples
+	 list all Apples
+	 find a fruit type whose cost is higher(greater) than all other fruits
+	 find all fruits whose color is 'red' 
+
+	 find total price of apples
+	 find total price of apples whose color is red
+	 find total price of mongo who  are from USA
+
+	 find price of all fruit total
+	 find number of apple fruits
+
+
+	 
+
+
+	 List<Fruit> fruits = Arrays.asList(
+                new Fruit("Apple", "Yellow", "India", 150, 10),
+                new Fruit("Apple", "Green", "India", 120, 5),
+                new Fruit("Apple", "Red", "UK", 80, 20),
+                new Fruit("Apple", "Red", "USA", 60, 150),
+                new Fruit("Apple", "White", "UK", 40, 12),
+                new Fruit("Mango", "Yellow", "USA", 500, 10),
+                new Fruit("Mango", "Green", "India", 100, 70),
+                new Fruit("Mango", "Red", "USA", 150, 200),
+                new Fruit("Orange", "Orange", "UK", 20, 50)
+        );
+
+
+
+
+
+
+
+
+
 
 
 
